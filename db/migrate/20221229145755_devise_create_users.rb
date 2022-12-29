@@ -43,7 +43,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[6.1]
       t.string :expected
       t.string :birth
       t.string :sex
-      t.string :is_deleted
+      t.boolean :is_deleted
       t.string :status
     end
 
